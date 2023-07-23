@@ -30,6 +30,34 @@
     margin: 30px 0;
     width: 200px;
 }
+.aside-productos {
+    grid-area: aside1;
+    display: flex;
+    border: 2px solid #32576e;
+    border-radius: 10px;
+    margin: 5px 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+  }
+// .aside2-productos{
+//     grid-area: aside2;
+//     display: flex;
+//     border: 2px solid #32576e;
+//     border-radius: 10px;
+//     margin: 5px 2px;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//     align-content: center;
+//     justify-content: space-between;
+//   }
+  .aside-productos img{
+    display: flex;
+    margin: 30px 0;
+    width: 200px;
+  }
+
 // .aside-productos {
 //     grid-area: aside1;
 //     display: flex;
