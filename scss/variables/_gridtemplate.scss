@@ -25,3 +25,17 @@
     ;
   width: 100vw;
 }
+#promociones{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr; 
+  grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1fr 0.4fr; 
+  grid-template-areas: 
+  "nav nav nav nav"
+  "aside titulo1 titulo1 aside2"
+  "aside area12 area22 aside2"
+  "aside area32 area42 aside2"
+  "aside area52 area62 aside2"
+  "footer footer footer footer"
+  ;
+  width: 100vw;
+}

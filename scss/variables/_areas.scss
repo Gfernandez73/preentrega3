@@ -60,3 +60,45 @@
   width: 286px;
   height: 180px;
   }
+#area12{
+    grid-area: area12;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#area22{
+    grid-area: area22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#area12 img{
+    width: 286px;
+    height: 180px;
+    
+  }
+  #area22 img{
+    width: 286px;
+    height: 180px;
+  }
+  #area32 img{
+  width: 286px;
+  height: 180px;
+  }
+  #area42 img{
+  width: 286px;
+  height: 180px;
+  }
+  #area52 img{
+  width: 286px;
+  height: 180px;
+  }
+  
+  #area62 img{
+  width: 286px;
+  height: 180px;
+  }

@@ -59,6 +59,13 @@
   grid-template-areas: "nav nav nav nav nav" "aside titulo1 titulo1 titulo1 aside2" "aside area11 area21 area31 aside2" "aside area41 area51 area61 aside2" "footer footer footer footer footer";
   width: 100vw; }
 
+#promociones {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1fr 0.4fr;
+  grid-template-areas: "nav nav nav nav" "aside titulo1 titulo1 aside2" "aside area12 area22 aside2" "aside area32 area42 aside2" "aside area52 area62 aside2" "footer footer footer footer";
+  width: 100vw; }
+
 .titulo1 {
   grid-area: titulo1;
   display: flex;
@@ -199,5 +206,45 @@
   height: 180px; }
 
 #area61 img {
+  width: 286px;
+  height: 180px; }
+
+#area12 {
+  grid-area: area12;
+  display: flex;
+  margin-left: 0px;
+  margin-bottom: 2px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+#area22 {
+  grid-area: area22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
+
+#area12 img {
+  width: 286px;
+  height: 180px; }
+
+#area22 img {
+  width: 286px;
+  height: 180px; }
+
+#area32 img {
+  width: 286px;
+  height: 180px; }
+
+#area42 img {
+  width: 286px;
+  height: 180px; }
+
+#area52 img {
+  width: 286px;
+  height: 180px; }
+
+#area62 img {
   width: 286px;
   height: 180px; }
