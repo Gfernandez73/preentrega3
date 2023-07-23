@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.nav {
+  display: flex;
+  grid-area: nav;
+  background-color: #32576e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.nav img {
+  margin: 10px;
+  margin-top: 18px;
+  margin-right: 90px; }
+
+.nav-list {
+  display: flex;
+  grid-area: nav;
+  background-color: #baa07b;
+  width: 150px;
+  text-align: center;
+  color: #1c3c50;
+  border-radius: 5px;
+  text-decoration: none;
+  justify-content: center;
+  background-color: #32576e;
+  flex-direction: row;
+  margin-right: 25px;
+  padding: 8px 0; }
