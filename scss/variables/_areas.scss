@@ -101,6 +101,19 @@
   width: 286px;
   height: 180px;
 }
+.area13{
+    grid-area: area13;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #baa07b;
+    border-radius: 10px;
+    margin: 10px 100px;
+    height: 260px;
+}
 .area1quienes{
     grid-area: area1;
     display: flex;
@@ -133,3 +146,32 @@
 .imgfercla{
     border-radius: 10px;
 }
+.datos1{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .datos2{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .datos3{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .datos4{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
