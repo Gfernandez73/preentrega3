@@ -39,3 +39,16 @@
   ;
   width: 100vw;
 }
+#quienes{
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 0.5fr 0.2fr 1fr 0.2fr 1fr 0.5fr; 
+  grid-template-areas:
+  "nav"
+  "titulo1"
+  "area1"
+  "titulo2"
+  "area2"
+  "footer"; 
+  ;
+}

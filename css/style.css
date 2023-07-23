@@ -66,6 +66,12 @@
   grid-template-areas: "nav nav nav nav" "aside titulo1 titulo1 aside2" "aside area12 area22 aside2" "aside area32 area42 aside2" "aside area52 area62 aside2" "footer footer footer footer";
   width: 100vw; }
 
+#quienes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.2fr 1fr 0.2fr 1fr 0.5fr;
+  grid-template-areas: "nav" "titulo1" "area1" "titulo2" "area2" "footer"; }
+
 .titulo1 {
   grid-area: titulo1;
   display: flex;
@@ -248,3 +254,35 @@
 #area62 img {
   width: 286px;
   height: 180px; }
+
+.area1quienes {
+  grid-area: area1;
+  display: flex;
+  background-color: #7ba2ba;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  color: #1c3c50; }
+
+.area2quienes {
+  grid-area: area2;
+  display: flex;
+  background-color: #7ba2ba;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c3c50;
+  margin-bottom: 10px; }
+
+.parrafoquienes {
+  margin-right: 260px;
+  display: flex; }
+
+.imgfercla {
+  border-radius: 10px; }

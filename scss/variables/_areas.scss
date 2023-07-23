@@ -80,25 +80,56 @@
     width: 286px;
     height: 180px;
     
-  }
-  #area22 img{
+}
+#area22 img{
     width: 286px;
     height: 180px;
-  }
-  #area32 img{
+}
+#area32 img{
   width: 286px;
   height: 180px;
-  }
-  #area42 img{
+}
+#area42 img{
   width: 286px;
   height: 180px;
-  }
-  #area52 img{
+}
+#area52 img{
   width: 286px;
   height: 180px;
-  }
-  
-  #area62 img{
+}
+#area62 img{
   width: 286px;
   height: 180px;
-  }
+}
+.area1quienes{
+    grid-area: area1;
+    display: flex;
+    background-color: #7ba2ba;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: #1c3c50;
+}
+.area2quienes{
+    grid-area: area2;
+    display: flex;
+    background-color: #7ba2ba;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: #1c3c50;
+    margin-bottom: 10px;
+}
+.parrafoquienes{
+    margin-right: 260px;
+    display: flex;
+}
+.imgfercla{
+    border-radius: 10px;
+}
