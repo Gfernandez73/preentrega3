@@ -1,0 +1,30 @@
+.titulo1{
+    grid-area: titulo1;
+    display: flex;
+    background-color: #7ba2ba;
+    color: #1c3c50;
+    width: 420px;
+    height: 30px;
+    margin: 15px auto;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+}
+.titulo2{
+    grid-area: titulo2;
+    display: flex;
+    background-color: $celeste;
+    color:$azuloscuro;
+    width: 420px;
+    margin: 15px auto;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}

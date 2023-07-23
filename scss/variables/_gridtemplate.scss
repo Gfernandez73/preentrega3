@@ -1,0 +1,27 @@
+#inicio{
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr 1fr 0.3fr 0.4fr; 
+    grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr 1fr 0.4fr; 
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "aside titulo1 titulo1 titulo1 aside2"
+    "aside area1 area2 area3 aside2"
+    "aside titulo2 titulo2 titulo2 aside2"
+    "aside area4 area5 area6 aside2"
+    "footer footer footer footer footer"
+    ;
+    width: 100vw;
+}
+#productos{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 1fr 0.4fr; 
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "aside titulo1 titulo1 titulo1 aside2"
+    "aside area11 area21 area31 aside2"
+    "aside area41 area51 area61 aside2"
+    "footer footer footer footer footer"
+    ;
+    width: 100vw;  
+  }

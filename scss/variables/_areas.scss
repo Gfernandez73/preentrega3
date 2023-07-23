@@ -1,0 +1,36 @@
+.area1{
+    grid-area: area1;
+    margin-left: 21px;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+}
+.area1 img{
+    width: 286px;
+    height: 160px;   
+}
+.area2{
+    grid-area: area2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.area2 carousel slide{
+    display: flex;
+}
+.area2 img{
+    width: 286px;
+    height: 330px;
+}
+
+.area5{
+    grid-area: area5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.area5 img{
+    width: 286px;
+    height: 160px;
+}
