@@ -102,17 +102,21 @@
   height: 180px;
 }
 .area13{
-    grid-area: area13;
-    display: flex;
-    margin-left: 0px;
-    margin-bottom: 2px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    background-color: #baa07b;
-    border-radius: 10px;
-    margin: 10px 100px;
-    height: 260px;
+  grid-area: area13;
+  display: flex;
+  margin-left: 0px;
+  margin-bottom: 2px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #baa07b;
+  border-radius: 10px;
+  margin: 10px 100px;
+  height: 260px;
+  background-image: url(https://i.pinimg.com/550x/e1/7c/8a/e17c8aa….jpg);
+  align-items: center;
+  align-content: center;
+  
 }
 .area1quienes{
     grid-area: area1;
