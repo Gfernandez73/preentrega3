@@ -109,7 +109,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color: #baa07b;
+    background-color: $marron;
     border-radius: 10px;
     margin: 10px 100px;
     height: 260px;
@@ -117,26 +117,26 @@
 .area1quienes{
     grid-area: area1;
     display: flex;
-    background-color: #7ba2ba;
+    background-color: $celeste;
     border-radius: 10px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    color: #1c3c50;
+    color: $azuloscuro;
 }
 .area2quienes{
     grid-area: area2;
     display: flex;
-    background-color: #7ba2ba;
+    background-color: $celeste;
     border-radius: 10px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: space-between;
-    color: #1c3c50;
+    color: $azuloscuro;
     margin-bottom: 10px;
 }
 .parrafoquienes{
