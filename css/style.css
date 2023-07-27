@@ -12,7 +12,8 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #32576e, #1c3c50); }
 
 .nav img {
   margin: 10px;
@@ -281,10 +282,9 @@
   border-radius: 10px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
-  color: #1c3c50; }
+  justify-content: flex-end;
+  color: #1c3c50;
+  align-items: center; }
 
 .area2quienes {
   grid-area: area2;
@@ -297,14 +297,37 @@
   align-items: center;
   justify-content: space-between;
   color: #1c3c50;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  height: 300px; }
 
 .parrafoquienes {
-  margin-right: 260px;
-  display: flex; }
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  height: 150px;
+  width: 670px;
+  align-items: center;
+  margin: auto; }
+
+.mapaquienes {
+  width: 600px;
+  height: 250px;
+  border: 0;
+  margin-left: 60px;
+  border-radius: 10px; }
+
+.parrafodonde {
+  display: flex;
+  height: 89px;
+  width: 252px;
+  flex-direction: row;
+  align-items: center;
+  margin: auto; }
 
 .imgfercla {
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-right: 15px; }
 
 .datos1 {
   display: flex;
