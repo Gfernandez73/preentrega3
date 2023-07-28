@@ -103,16 +103,7 @@
 }
 .area13{
     grid-area: area13;
-    display: flex;
-    margin-left: 0px;
-    margin-bottom: 2px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    background-color: $marron;
-    border-radius: 10px;
-    margin: 10px 100px;
-    height: 260px;
+   
 }
 .area1quienes{
   grid-area: area1;
@@ -168,32 +159,65 @@
     border-radius: 10px;
     margin-right: 15px;
 }
-.datos1{
-    display: flex;
-    margin-top: 20px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .datos2{
-    display: flex;
-    margin-top: 20px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+.formulario {
+  display: flex;
+  margin-left: 0px;
+  margin-bottom: 2px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #baa07b;
+  border-radius: 10px;
+  margin: 10px 100px;
+  height: 260px;
+}
+.nombre{
+  display: flex;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  margin: 20px;
+  margin-left: 211px;
+}
+.apellido{
+  display: flex;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  margin: 20px;
+  margin-right: 221px;
+}
+.correo{
+  display: flex;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  margin-left: 180px;
+  margin-right: 43px;
+}
+.telefono{
+  display: flex;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  margin-right: 190px;
+}
+
   .datos3{
     display: flex;
     margin-top: 20px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-right: 113px;
+    margin-left: 115px;
   }
   .datos4{
     display: flex;
-    margin-top: 11px;
+    margin-top: 15px;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    margin-left: 358px;
+    margin-right: 359px;
+    margin-bottom: 15px;
   }
