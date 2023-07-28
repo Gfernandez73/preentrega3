@@ -70,14 +70,16 @@
 #quienes {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.2fr 1fr 0.2fr 1fr 0.5fr;
+  grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr 1fr 0.5fr;
   grid-template-areas: "nav" "titulo1" "area1" "titulo2" "area2" "footer"; }
 
 #consultas {
   display: grid;
   grid-template-columns: 0.2fr 1 fr 0.2 fr;
-  grid-template-rows: 0.5fr 0.2fr 1fr 0.5fr;
-  grid-template-areas: "nav" "titulo1" "area13" "footer"; }
+  grid-template-rows: 0.2fr 0.2fr 1fr 0.5fr;
+  grid-template-areas: "nav" "titulo1" "area13" "footer";
+  width: 100vw;
+  min-height: 800px; }
 
 .titulo1 {
   grid-area: titulo1;
@@ -359,8 +361,14 @@
 
 @media (max-width: 767px) {
   #inicio {
+    display: none;
     grid-template-columns: 1fr;
     grid-template-areas: "nav" "titulo1" "area2" "titulo2" "area5" "footer"; }
+  #productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav" "titulo1" "area11" "area21" "area31" "area41\a       " area51 " \a       " area61 " aside2" "footer";
+    width: 100vw; }
   .nav {
     display: flex;
     grid-area: nav;
@@ -373,17 +381,69 @@
     flex-wrap: wrap; }
   .nav img {
     margin: 10px;
-    margin-top: 18px;
-    margin-right: 40px; }
+    margin-top: 18px; }
+  .nav-list {
+    display: flex;
+    grid-area: nav;
+    background-color: #baa07b;
+    width: 150px;
+    text-align: center;
+    color: #1c3c50;
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #baa07b;
+    flex-direction: row;
+    padding: 8px 0; }
+  #consultas {
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav" "titulo1" "area13" "footer";
+    width: 100vw; }
   #quienes {
     grid-template-columns: 1fr;
     grid-template-areas: "nav" "titulo1" "area1" "titulo2" "area2" "footer"; }
-  #consultas {
-    grid-template-columns: 1fr;
-    grid-template-areas: "nav" "titulo1" "area13" "footer"; }
+  .area1quienes {
+    grid-area: area1;
+    display: flex;
+    background-color: #7ba2ba;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #1c3c50;
+    align-items: center; }
+  .area2quienes {
+    grid-area: area2;
+    display: flex;
+    background-color: #7ba2ba;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: #1c3c50;
+    margin-bottom: 10px;
+    height: 350px; }
   .parrafoquienes {
     display: flex;
     text-align: center;
     margin: auto; }
+  .mapaquienes {
+    width: 600px;
+    height: 250px;
+    border: 0;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 20px; }
+  .parrafodonde {
+    display: flex;
+    height: 89px;
+    width: 252px;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center; }
   .pie-2 {
     text-align: center; } }

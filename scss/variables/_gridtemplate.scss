@@ -42,7 +42,7 @@
 #quienes{
   display: grid;
   grid-template-columns: 1fr; 
-  grid-template-rows: 0.5fr 0.2fr 1fr 0.2fr 1fr 0.5fr; 
+  grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr 1fr 0.5fr; 
   grid-template-areas:
   "nav"
   "titulo1"
@@ -55,11 +55,13 @@
 #consultas{
   display: grid;
   grid-template-columns: 0.2fr 1 fr 0.2 fr;
-  grid-template-rows: 0.5fr 0.2fr 1fr 0.5fr;
+  grid-template-rows: 0.2fr 0.2fr 1fr 0.5fr;
   grid-template-areas: 
   "nav"
   "titulo1"
   "area13"
   "footer"
   ;
+  width: 100vw;
+  min-height: 800px;
 }

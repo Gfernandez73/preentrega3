@@ -2,6 +2,7 @@
 
 @media (max-width:767px){
     #inicio{
+      display: none;
         grid-template-columns: 1fr; 
         grid-template-areas: 
         "nav"
@@ -12,6 +13,22 @@
         "footer"
         ;    
     }
+    #productos {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "nav"
+      "titulo1"
+      "area11"
+      "area21"
+      "area31"
+      "area41
+      "area51" 
+      "area61" aside2"
+      "footer"
+      ;
+    width: 100vw;
+  }
     .nav{
         display: flex;
         grid-area: nav;
@@ -26,9 +43,33 @@
     .nav img{
         margin: 10px;
         margin-top: 18px;
-        margin-right: 40px;
     }
-    #quienes{
+    .nav-list{
+      display: flex;
+      grid-area: nav;
+      background-color: $marron;
+      width: 150px;
+      text-align: center;
+      color: $azuloscuro;
+      border-radius: 5px;
+      text-decoration: none;
+      justify-content: center;
+      background-color: $marron;
+      flex-direction: row;
+      padding: 8px 0;
+    }
+    
+      #consultas{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav"
+        "titulo1"
+        "area13"
+        "footer"
+        ;
+        width: 100vw;
+      }
+      #quienes{
         grid-template-columns: 1fr; 
         grid-template-areas:
         "nav"
@@ -39,19 +80,53 @@
         "footer"; 
         ;
       }
-      #consultas{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "nav"
-        "titulo1"
-        "area13"
-        "footer"
-        ;
+      .area1quienes{
+        grid-area: area1;
+        display: flex;
+        background-color: #7ba2ba;
+        border-radius: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #1c3c50;
+        align-items: center;
       }
+      .area2quienes{
+        grid-area: area2;
+        display: flex;
+        background-color: $celeste;
+        border-radius: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        color: $azuloscuro;
+        margin-bottom: 10px;
+        height: 350px;
+    }
       .parrafoquienes{
         display: flex;
         text-align: center;
         margin: auto;
+    }
+    .mapaquienes{
+      width: 600px;
+      height: 250px;
+      border: 0;
+      margin-left: 60px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .parrafodonde{
+      display: flex;
+      height: 89px;
+      width: 252px;
+      flex-direction: row;
+      align-items: center;
+      margin: auto;
+      flex-wrap: wrap;
+      text-align: center;
     }
     .pie-2{
         text-align: center;
