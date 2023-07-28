@@ -2,7 +2,7 @@
 
 @media (max-width:767px){
     #inicio{
-      display: none;
+      display: grid;
         grid-template-columns: 1fr; 
         grid-template-areas: 
         "nav"
@@ -15,20 +15,46 @@
     }
     #productos {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; 
       grid-template-areas: 
       "nav"
       "titulo1"
       "area11"
       "area21"
       "area31"
-      "area41
-      "area51" 
-      "area61" aside2"
+      "area41"
+      "area51"
+      "area61"
       "footer"
       ;
     width: 100vw;
   }
+  #promociones{
+    display: grid;
+    grid-template-columns: 1fr;  
+    grid-template-areas: 
+    "nav"
+    "titulo1"
+    "area12"
+    "area22"
+    "area32"
+    "ares42"
+    "area52"
+    "area62"
+    "footer"
+    // "aside area12 area22 aside2"
+    // "aside area32 area42 aside2"
+    // "aside area52 area62 aside2"
+    // "footer footer footer footer"
+    ;
+    width: 100vw;
+  }
+   .aside{
+    display: none;
+   }
+   .aside2{
+    display: none;
+   }
     .nav{
         display: flex;
         grid-area: nav;
@@ -77,7 +103,7 @@
         "area1"
         "titulo2"
         "area2"
-        "footer"; 
+        "footer"
         ;
       }
       .area1quienes{
@@ -131,4 +157,106 @@
     .pie-2{
         text-align: center;
     }
+    .area11.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .card{
+      align-items: center;
+    }
+    .area21.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area31.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area41.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area51.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area61.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area12.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area22.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area32.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area42.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area52.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
+    .area62.card{
+      display: flex;
+      width: 10px;
+      height: 280px;
+      margin: 3px;
+      margin: auto;   
+    }
 }
+// width: 18rem; height: 280px; margin: 3px;
+// .aside{ 
+//   display: none;
+// }
+// .aside2{
+//   display: none; 
+// }
+// .aside{
+//   margin: 0;
+//   padding: 0;
+// }
+// .aside2{
+//   margin: 0;
+//   padding: 0;
+// }

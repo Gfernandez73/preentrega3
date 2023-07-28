@@ -48,7 +48,7 @@
 
 #inicio {
   display: grid;
-  grid-template-columns: 0.5fr 0.3fr 1fr 0.3fr 0.4fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
   grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr 1fr 0.4fr;
   grid-template-areas: "nav nav nav nav nav" "aside titulo1 titulo1 titulo1 aside2" "aside area1 area2 area3 aside2" "aside titulo2 titulo2 titulo2 aside2" "aside area4 area5 area6 aside2" "footer footer footer footer footer";
   width: 100vw; }
@@ -120,7 +120,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 203px; }
 
 .aside img {
   display: flex;
@@ -136,7 +137,9 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 203px;
+  margin-left: 9px; }
 
 .aside2 img {
   display: flex;
@@ -382,16 +385,28 @@
   margin-right: 359px;
   margin-bottom: 15px; }
 
+.card {
+  margin: 3px; }
+
 @media (max-width: 767px) {
   #inicio {
-    display: none;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "nav" "titulo1" "area2" "titulo2" "area5" "footer"; }
   #productos {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "nav" "titulo1" "area11" "area21" "area31" "area41\a       " area51 " \a       " area61 " aside2" "footer";
+    grid-template-areas: "nav" "titulo1" "area11" "area21" "area31" "area41" "area51" "area61" "footer";
     width: 100vw; }
+  #promociones {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav" "titulo1" "area12" "area22" "area32" "ares42" "area52" "area62" "footer";
+    width: 100vw; }
+  .aside {
+    display: none; }
+  .aside2 {
+    display: none; }
   .nav {
     display: flex;
     grid-area: nav;
@@ -469,4 +484,78 @@
     flex-wrap: wrap;
     text-align: center; }
   .pie-2 {
-    text-align: center; } }
+    text-align: center; }
+  .area11.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .card {
+    align-items: center; }
+  .area21.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area31.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area41.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area51.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area61.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area12.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area22.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area32.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area42.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area52.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; }
+  .area62.card {
+    display: flex;
+    width: 10px;
+    height: 280px;
+    margin: 3px;
+    margin: auto; } }
