@@ -38,7 +38,6 @@
     width: 286px;
     height: 180px;    
   }
-
   #area21 img{
     width: 286px;
     height: 180px;
@@ -61,20 +60,70 @@
   height: 180px;
   }
 #area12{
-    grid-area: area12;
-    display: flex;
-    margin-left: 0px;
-    margin-bottom: 2px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  grid-area: area12;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 2px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 286px;
+  margin-right: auto;
 }
 #area22{
-    grid-area: area22;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+  grid-area: area22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 286px;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+#area32{
+  grid-area: area32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 286px;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+#area42{
+  grid-area: area42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 286px;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+#area52{
+  grid-area: area52;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 286px;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+#area62{
+  grid-area: area62;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 286px;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 }
 #area12 img{
     width: 286px;
