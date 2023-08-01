@@ -273,4 +273,8 @@
   .card{
     margin: 3px;
   }
-  
+  input:focus{
+    background-color: $azuloscuro;
+    color: $marron;
+    
+}

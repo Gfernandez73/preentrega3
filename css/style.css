@@ -445,6 +445,10 @@ a:hover {
 .card {
   margin: 3px; }
 
+input:focus {
+  background-color: #1c3c50;
+  color: #baa07b; }
+
 @media (max-width: 767px) {
   #inicio {
     display: grid;
