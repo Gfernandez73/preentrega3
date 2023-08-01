@@ -8,10 +8,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;  
-    background-image: linear-gradient(to right, $azul, $azuloscuro);
-    
-    
-     
+    background-image: linear-gradient(to right, $azul, $azuloscuro);   
 }
 
 .nav img{
@@ -46,3 +43,9 @@
     align-items: center;
     flex-wrap: wrap;  
 }
+a:hover{
+    background-color: #1c3c50;
+    color: #7ba2ba;
+    font-weight: bold;
+    width: 150px;
+ }

@@ -46,6 +46,12 @@
   align-items: center;
   flex-wrap: wrap; }
 
+a:hover {
+  background-color: #1c3c50;
+  color: #7ba2ba;
+  font-weight: bold;
+  width: 150px; }
+
 #inicio {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
@@ -156,7 +162,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  align-items: center; }
+  align-items: center;
+  background-image: linear-gradient(to right, #32576e, #1c3c50); }
 
 .pie-1 {
   font-weight: bold;
